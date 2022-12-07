@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
   devtool: 'eval',
   resolve: {  // 읽을 확장자
-    extensions: ['.js', '.jsx'],
+    extensions: ['.js', '.jsx', '.ts', 'tsx'],
   },
   
   entry: {

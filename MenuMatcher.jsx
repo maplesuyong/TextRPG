@@ -4,7 +4,8 @@ import Info from './Info';
 import Inven from './Inven';
 
 const MenuMatcher = (props) => {
-  console.log(useParams().menu);
+  console.log('useParams: ', useParams().menu);
+  console.log(props.match);
   if (useParams().menu === 'info') {
     return (
       <Info />
